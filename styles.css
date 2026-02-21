@@ -21,15 +21,6 @@
 
 .dark-mode .dark-adjust {
     color: #f2e9e4 !important;
-    text-shadow: 0 2px 8px rgba(240, 236, 236, 0.18);
-}
-
-.dark-mode .section-title {
-    background: none !important;
-    -webkit-background-clip: initial !important;
-    -webkit-text-fill-color: initial !important;
-    background-clip: initial !important;
-    color: #f2e9e4 !important;
 }
 
 html {
@@ -459,6 +450,11 @@ section {
     .skills-grid {
         grid-template-columns: 1fr;
     }
+        .theme-toggle {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 }
 
 @media (max-width: 480px) {
@@ -481,4 +477,9 @@ section {
     .section-title {
         font-size: 1.5rem;
     }
+        .theme-toggle {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 }
